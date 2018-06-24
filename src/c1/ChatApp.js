@@ -3,6 +3,7 @@ import withTimer from "../c6/withTimer";
 
 class MessageList extends React.PureComponent {
   render() {
+    console.log('aaaa');
     return (
       <ul>
         {this.props.messages.map(msg => <li>{msg}</li>)}
